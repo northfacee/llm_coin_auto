@@ -557,7 +557,6 @@ def final_decision_agent(state: AgentState) -> AgentState:
         7. 모든 문자열은 큰따옴표로 감싸야 합니다.
         8. JSON 형식을 정확히 지켜야 합니다.
         9. 추가 설명이나 텍스트를 포함하지 마세요.
-        10. percentage 값이 30을 초과하면 결과가 자동으로 HOLD로 변경됩니다.
         """
 
         response = llm.invoke(prompt)
